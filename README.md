@@ -1,4 +1,4 @@
-# superior-series
+# astro-microCMS
 
 ## リポジトリについて
 microCMS公式が出してる記事
