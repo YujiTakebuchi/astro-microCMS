@@ -7,6 +7,27 @@ microCMS公式が出してる記事
 
 を元に astro と microCMS を使った Web サイト実装を学習するためのリポジトリ
 
+## Install
+```bash
+$ npm i
+```
+
+## Commands
+開発モード
+```bash
+$ npm run dev
+```
+
+ビルド
+```
+$ npm run build
+```
+
+ローカルホスト立ち上げ
+```
+$ npm start
+```
+
 ## Dependencies
 ```
 astro: 1.9.0
