@@ -18,3 +18,6 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+# 個人的な参照用ドキュメントをアップしない
+/doc/
