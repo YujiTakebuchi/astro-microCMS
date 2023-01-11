@@ -1,4 +1,5 @@
 ---
+import BlogPreview from "../components/BlogPreview";
 import Layout from "../layouts/Layout.astro";
 ---
 
@@ -25,8 +26,6 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout title="My first blog with Astro">
   <main>
-    <h1 class="title"></h1>
-    <p class="publishedAt"></p>
-    <div class="post"></div>
+    <BlogPreview client:only="preact" />
   </main>
 </Layout>
