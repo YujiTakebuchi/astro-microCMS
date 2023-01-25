@@ -8,15 +8,17 @@ const SearchButton = () => {
       : ""
   );
   const handleChange: JSXInternal.GenericEventHandler<HTMLInputElement> = (
-    event
+    e
   ) => {
-    setValue((event.target as HTMLInputElement).value);
+    console.log("entering ...");
+    setValue((e.target as HTMLInputElement).value);
   };
   const handleSubmit: JSXInternal.GenericEventHandler<HTMLFormElement> = (
-    event
+    e
   ) => {
-    event.preventDefault();
-    window.location.href = `search?q=${value}`;
+    console.log("submit!");
+    e.preventDefault();
+    window.location.href = `/search?q=hello`;
   };
 
   return (

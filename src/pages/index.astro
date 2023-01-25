@@ -9,6 +9,7 @@ const response = await getBlogs({ fields: ["id", "title"] });
 
 <Layout title="Welcome to Astro.">
   <main>
+    <SearchButton />
     <ul>
       {
         response.contents.map((content: any) => (
@@ -18,7 +19,6 @@ const response = await getBlogs({ fields: ["id", "title"] });
         ))
       }
     </ul>
-    <SearchButton />
   </main>
 </Layout>
 
