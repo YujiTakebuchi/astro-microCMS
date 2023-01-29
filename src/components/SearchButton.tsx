@@ -18,18 +18,13 @@ const SearchButton = () => {
   ) => {
     console.log("submit!");
     e.preventDefault();
-    window.location.href = `/search?q=hello`;
+    window.location.href = `/search?q=${value}`;
   };
 
   return (
-    <form role="search" onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       <label for="blog_search">記事を検索</label>
-      <input
-        id="blog_search"
-        type="search"
-        value={value}
-        onChange={handleChange}
-      />
+      <input id="blog_search" value={value} onChange={handleChange} />
       <button>検索</button>
     </form>
   );
