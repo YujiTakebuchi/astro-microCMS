@@ -9,7 +9,7 @@ const response = await getBlogs({ fields: ["id", "title"] });
 
 <Layout title="Welcome to Astro.">
   <main>
-    <SearchButton client:only="preact" />
+    <SearchButton client:load />
     <ul>
       {
         response.contents.map((content: any) => (
