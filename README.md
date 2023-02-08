@@ -4,6 +4,7 @@
 microCMS公式が出してる記事
 - [Astro と microCMS でつくるブログサイト](https://blog.microcms.io/astro-microcms-introduction/)
 - [Astro と microCMS を使った画面プレビューを実装する](https://blog.microcms.io/astro-preview/)
+- [AstroとmicroCMSを使った検索機能を実装する](https://blog.microcms.io/astro-search/)
 
 を元に astro と microCMS を使った Web サイト実装を学習するためのリポジトリ
 
